@@ -1,0 +1,93 @@
+body {
+    background-color: #fff0f5;
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+
+.container {
+    background-color: white;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #ffc1e3; }
+
+header {
+    text-align: center; }
+
+h2 {
+    color: #ff8dc7; }
+
+.card {
+    padding: 15px;
+    margin: 10px 0;
+    transition: 0.3s;
+     border-radius: 10px;}
+
+.project-item {
+    margin-bottom: 15px;
+    border-left: 3px solid #ffc1e3; /* خط بينك رفيع في جنب كل مشروع */
+    padding-left: 10px; }
+
+.project-item h3 {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #ff8dc7; }
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(255, 141, 199, 0.3);
+    background-color: #fff9fc; }
+
+button {
+    background-color: #ffc1e3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer; }
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666; }
+
+.contact-info a {
+    color: #ff8dc7;
+    text-decoration: none;
+    font-weight: bold; }
+
+.contact-info a:hover {
+    text-underline-position: below;
+    text-decoration: underline; }
+
+.multi-column-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    list-style-type: "🌸 ";
+    padding-left: 20px; }
+
+.job-title {
+    font-weight: bold;
+    color: #ff8dc7;
+    margin-top: -10px;
+    font-size: 1.1em; }
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px; }
+
+.project-detail h3 {
+    color: #ff8dc7;
+    margin-bottom: 5px; }
+
+.skill-category {
+    margin-bottom: 10px; }
