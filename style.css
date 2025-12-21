@@ -34,13 +34,14 @@ h2 {
 
 .project-detail {
     margin-bottom: 15px;
-    border-left: 3px solid #ffc1e3; /* خط بينك رفيع في جنب كل مشروع */
+    border-left: 3px solid #ffc1e3;
     padding-left: 10px; }
 
 .project-item h3 {
     margin: 5px 0;
     font-size: 18px;
     color: #ff8dc7; }
+
 .card:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(255, 141, 199, 0.3);
@@ -91,5 +92,6 @@ button {
 
 .skill-category {
     margin-bottom: 10px; }
+
 
 
